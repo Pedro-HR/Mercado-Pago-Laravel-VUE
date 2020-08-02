@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b7d2cbe-e064-431b-8ea6-0a8e01b6fc4a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/js/components/error.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/formBoleto.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/payBoleto.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/success.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/boleto.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/comprar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/error.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/success.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blog.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,7 +195,7 @@
       <updated>1596225954175</updated>
       <workItem from="1596225955460" duration="17147000" />
       <workItem from="1596293722049" duration="33539000" />
-      <workItem from="1596376497895" duration="11391000" />
+      <workItem from="1596376497895" duration="12256000" />
     </task>
     <servers />
   </component>
