@@ -16,3 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/checkout/{qntProdutos}/{valorTotal}', 'Checkout@checkCheckout');
+Route::post('/payCheckout', 'Checkout@payCheckout');

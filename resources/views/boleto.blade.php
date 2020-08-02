@@ -12,7 +12,7 @@
     <div class="container">
         <div id="app">
             <div class="col-10" style="margin: auto">
-                <products></products>
+                <pay-boleto></pay-boleto>
             </div>
         </div>
     </div>

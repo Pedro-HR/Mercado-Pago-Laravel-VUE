@@ -1,0 +1,22 @@
+td, th {
+    vertical-align: middle !important;
+}
+
+.btn-control {
+    margin-top: 10px;
+}
+
+.total-value {
+    margin: 10px 0 !important;
+}
+
+.btn-margin {
+    margin-top: 10px;
+}
+
+.bg-form {
+    background: #fcfcfc;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid darkgray;
+}
