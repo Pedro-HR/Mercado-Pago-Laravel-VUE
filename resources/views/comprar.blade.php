@@ -5,8 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Pagamento</title>
-        <link rel="stylesheet" href="{{asset('css/app.css')}}">
-        <link rel="stylesheet" href="{{asset('css/style.css')}}">
+        <link rel="stylesheet" href="{{ secure_asset('css/app.css') }}">
+        <link rel="stylesheet" href="{{ secure_asset('css/style.css') }}">
         <script src="https://secure.mlstatic.com/sdk/javascript/v1/mercadopago.js"></script>
     </head>
     <body>
@@ -23,7 +23,7 @@
                         </select>
                     </div>
                     <hr>
-                    <form method="POST" id="pay" name="pay" action="{{  url('payCheckout') }}">
+                    <form method="POST" id="pay" name="pay" action="{{ secure_url('payCheckout') }}">
                         @csrf
                         <form-boleto v-if="selected === '2'"></form-boleto>
                         <form-credit v-if="selected === '3'" valor-total="{{ $valorTotal ?? 1 }}"
@@ -33,7 +33,7 @@
             </div>
         </div>
     </div>
-    <script src="{{asset('js/app.js')}}"></script>
+    <script src="{{ secure_asset('js/app.js') }}"></script>
     <script>window.Mercadopago.setPublishableKey("TEST-33d6d38f-395c-4f24-a9e7-2267ddf4d259");</script>
     </body>
 </html>

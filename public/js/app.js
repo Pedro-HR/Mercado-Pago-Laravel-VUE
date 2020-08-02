@@ -1917,7 +1917,10 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-/* harmony default export */ __webpack_exports__["default"] = ({});
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  props: ['exception']
+});
 
 /***/ }),
 
@@ -2130,7 +2133,6 @@ __webpack_require__.r(__webpack_exports__);
       var res = str.replace(/R\$/g, "");
       res = res.replace(/,/g, ".");
       this.totalValue += parseFloat(res);
-      console.log(res, this.totalValue);
     },
     removeProductCart: function removeProductCart(index) {
       var str = this.productsCart[index]['productValue'];
@@ -2140,7 +2142,7 @@ __webpack_require__.r(__webpack_exports__);
       this.productsCart.splice(index, 1);
     },
     checkout: function checkout(qntProdutos, totalValue) {
-      window.location = 'http://localhost:8000/checkout/' + qntProdutos + '/' + totalValue;
+      window.location = window.location + 'checkout/' + qntProdutos + '/' + totalValue;
     }
   }
 });
@@ -37759,27 +37761,27 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", [
-      _c("h1", { staticClass: "display-4 text-center" }, [
-        _vm._v("Erro no Pagamento! "),
-        _c("br"),
-        _vm._v(" "),
-        _c("small", { staticClass: "text-muted" }, [
-          _vm._v(
-            "\n            Tente novamente usando outro meio de pagamento.\n        "
-          )
-        ])
+  return _c("div", [
+    _c("h1", { staticClass: "display-4 text-center" }, [
+      _vm._v(" Erro no Pagamento! "),
+      _c("br"),
+      _vm._v(" "),
+      _vm.exception
+        ? _c("strong", { staticStyle: { color: "darkred" } }, [
+            _vm._v(" " + _vm._s(_vm.exception) + " ")
+          ])
+        : _vm._e(),
+      _c("br"),
+      _vm._v(" "),
+      _c("small", { staticClass: "text-muted" }, [
+        _vm._v(
+          "\n            Tente novamente usando outro meio de pagamento.\n        "
+        )
       ])
     ])
-  }
-]
+  ])
+}
+var staticRenderFns = []
 render._withStripped = true
 
 

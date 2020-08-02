@@ -73,7 +73,7 @@ class Checkout extends Controller
                     $payment->save();
                     return view('success', ['status' => $payment->status]);
                 } catch (Exception $e) {
-                    return view('error');
+                    return view('error', ['exception' => $e->getMessage()]);
                 }
             default:
                 return view('error');

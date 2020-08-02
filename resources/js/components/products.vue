@@ -79,7 +79,6 @@
                     var res = str.replace(/R\$/g, "");
                         res = res.replace(/,/g, ".");
                     this.totalValue += parseFloat(res);
-                console.log(res,this.totalValue)
             },
             removeProductCart(index) {
                 var str = this.productsCart[index]['productValue'];
@@ -90,7 +89,7 @@
                 this.productsCart.splice(index, 1)
             },
             checkout(qntProdutos, totalValue) {
-                window.location = 'http://localhost:8000/checkout/' + qntProdutos + '/' + totalValue
+                window.location = window.location + 'checkout/' + qntProdutos + '/' + totalValue
             }
         }
     }
